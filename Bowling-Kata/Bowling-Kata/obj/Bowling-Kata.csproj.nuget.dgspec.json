@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\bowling-kata\\Bowling-Kata\\Bowling-Kata\\Bowling-Kata.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\bowling-kata\\Bowling-Kata\\Bowling-Kata\\Bowling-Kata.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\bowling-kata\\Bowling-Kata\\Bowling-Kata\\Bowling-Kata.csproj",
+        "projectName": "Bowling-Kata",
+        "projectPath": "C:\\src\\bowling-kata\\Bowling-Kata\\Bowling-Kata\\Bowling-Kata.csproj",
+        "packagesPath": "C:\\Users\\ceyao\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\bowling-kata\\Bowling-Kata\\Bowling-Kata\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ceyao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://billersolutions.pkgs.visualstudio.com/_packaging/BillerSolutions/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
